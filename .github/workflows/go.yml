@@ -23,3 +23,6 @@ jobs:
 
     - name: test for prototype
       run: cd prototype && go test -v 
+
+    - name: test for strategy
+      run: cd strategy && go test -v 
