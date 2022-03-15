@@ -26,3 +26,6 @@ jobs:
 
     - name: test for strategy
       run: cd strategy && go test -v 
+
+    - name: test for simplefactory
+      run: cd simplefactory && go test -v 
