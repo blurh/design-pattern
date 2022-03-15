@@ -29,3 +29,6 @@ jobs:
 
     - name: test for simplefactory
       run: cd simplefactory && go test -v 
+
+    - name: test for factory
+      run: cd factory && go test -v 
