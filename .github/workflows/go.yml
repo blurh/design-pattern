@@ -35,3 +35,6 @@ jobs:
 
     - name: test for abstract_factory
       run: cd abstract_factory && go test -v 
+
+    - name: test for builder
+      run: cd builder && go test -v 
