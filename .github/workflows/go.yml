@@ -38,3 +38,6 @@ jobs:
 
     - name: test for builder
       run: cd builder && go test -v 
+
+    - name: test for proxy
+      run: cd proxy && go test -v 
