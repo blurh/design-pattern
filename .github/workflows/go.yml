@@ -41,3 +41,6 @@ jobs:
 
     - name: test for proxy
       run: cd proxy && go test -v 
+
+    - name: test for bridge
+      run: cd bridge && go test -v 
