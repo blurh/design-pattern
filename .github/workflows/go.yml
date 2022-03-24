@@ -44,3 +44,6 @@ jobs:
 
     - name: test for bridge
       run: cd bridge && go test -v 
+    
+    - name: test for decorator
+      run: cd decorator && go test -v 
