@@ -47,3 +47,6 @@ jobs:
     
     - name: test for decorator
       run: cd decorator && go test -v 
+    
+    - name: test for adapter
+      run: cd adapter && go test -v 
