@@ -56,3 +56,6 @@ jobs:
 
     - name: test for composite
       run: cd composite && go test -v 
+
+    - name: test for flyweight
+      run: cd flyweight && go test -v 
