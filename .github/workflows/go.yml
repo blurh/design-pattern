@@ -50,3 +50,6 @@ jobs:
     
     - name: test for adapter
       run: cd adapter && go test -v 
+
+    - name: test for facade
+      run: cd facade && go test -v 
