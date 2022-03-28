@@ -53,3 +53,6 @@ jobs:
 
     - name: test for facade
       run: cd facade && go test -v 
+
+    - name: test for composite
+      run: cd composite && go test -v 
