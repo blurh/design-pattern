@@ -62,3 +62,6 @@ jobs:
 
     - name: test for observer
       run: cd observer && go test -v 
+
+    - name: test for template
+      run: cd template && go test -v 
