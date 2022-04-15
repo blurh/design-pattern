@@ -65,3 +65,6 @@ jobs:
 
     - name: test for template
       run: cd template && go test -v 
+
+    - name: test for chain_of_responsibility
+      run: cd chain_of_responsibility && go test -v 
