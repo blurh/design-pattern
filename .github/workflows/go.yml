@@ -68,3 +68,6 @@ jobs:
 
     - name: test for chain_of_responsibility
       run: cd chain_of_responsibility && go test -v 
+
+    - name: test for state
+      run: cd state && go test -v 
