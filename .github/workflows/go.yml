@@ -71,3 +71,6 @@ jobs:
 
     - name: test for state
       run: cd state && go test -v 
+
+    - name: test for iterator
+      run: cd iterator && go test -v 
