@@ -74,3 +74,6 @@ jobs:
 
     - name: test for iterator
       run: cd iterator && go test -v 
+
+    - name: test for visitor
+      run: cd visitor && go test -v 
