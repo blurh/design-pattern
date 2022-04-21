@@ -77,3 +77,6 @@ jobs:
 
     - name: test for visitor
       run: cd visitor && go test -v 
+
+    - name: test for memento
+      run: cd memento && go test -v 
