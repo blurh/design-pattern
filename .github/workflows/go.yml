@@ -80,3 +80,6 @@ jobs:
 
     - name: test for memento
       run: cd memento && go test -v 
+
+    - name: test for command
+      run: cd command && go test -v 
