@@ -83,3 +83,6 @@ jobs:
 
     - name: test for command
       run: cd command && go test -v 
+
+    - name: test for mediator
+      run: cd mediator && go test -v 
